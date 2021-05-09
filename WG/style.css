@@ -91,7 +91,7 @@ select {
   height: 800px;
   background-image: url(images/Layer\ 2@0\,75x.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: 1280px;
   position: relative;
 }
