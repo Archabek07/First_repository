@@ -1,0 +1,397 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  /* text-rendering: может увеличить время загрузки вашего сайта; */
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+/* a:not([class]) {
+  text-decoration-skip-ink: auto;
+} */
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* END RESEY CSS HURRAAA */
+
+/* @media (max-width: 992px) {{
+
+}} */
+
+/* Start heder */
+.mainbody {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.upper {
+  width: 1280px;
+  height: 800px;
+  background-image: url(/images/Layer\ 2@0\,75x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1280px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  right: 503px;
+  top: 67px;
+}
+.head-text {
+  position: absolute;
+  font-size: 49.35px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.256;
+  text-align: center;
+  max-width: 675px;
+  right: 304px;
+  top: 419px;
+  font-weight: 300;
+}
+
+/* End header */
+
+/* starts form section */
+.form {
+  position: absolute;
+  min-width: 336px;
+  max-height: 336px;
+  bottom: 0;
+  z-index: 1;
+  top: 580px;
+  right: 470px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.mainform {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.first-label {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.typetext {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  border: rgb(122, 121, 121) solid 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 266px;
+  padding-left: 10px;
+}
+
+.mainform p {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: rgb(147, 142, 142);
+  line-height: 1.2;
+  text-align: center;
+  width: 240px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.submit-button {
+  padding: 12px 40px;
+  background: #227dd3;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+}
+
+/* End form section */
+
+/* Start middle section */
+
+.middle {
+  max-height: 400px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 167px;
+  margin-bottom: 106px;
+  flex-wrap: wrap;
+}
+
+.documents-photo-about {
+  display: flex;
+}
+
+.doc-photo-titles {
+  width: 280px;
+  margin-left: 26px;
+  margin-right: 67px;
+}
+
+.photo-doclogo img {
+  max-width: 95px;
+  max-height: 121px;
+}
+
+.middle-text {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(79, 78, 78);
+  line-height: 1.4;
+  text-align: left;
+  padding: 0;
+}
+
+.middle-head {
+  font-size: 27.35px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+/* End Middle Section*/
+
+/* Start Pre-Footer */
+
+.pre-footer-main {
+  background-image: url(/images/Sec1.png);
+  width: 1280px;
+  height: 870px;
+}
+
+.pre-footer-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-footer-head {
+  margin-top: 270px;
+  margin-bottom: 30px;
+  font-size: 39.35px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.576;
+  text-align: center;
+}
+
+.pre-footer-text {
+  width: 650px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.64;
+}
+
+.pre-footer-text-two {
+  padding-top: 40px;
+  width: 650px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.64;
+}
+
+/* End pre-footer section */
+
+.pre-footer-two {
+  position: relative;
+  width: 1280px;
+  height: 480px;
+}
+
+.pre-footer-main-two {
+  background-image: url(/images/sec2.png);
+  position: absolute;
+  bottom: 0;
+  top: -330px;
+}
+
+.pre-footer-title-two {
+  display: flex;
+  flex-direction: column;
+  margin-left: 560px;
+  margin-right: 210px;
+}
+
+.pre-footer-text-third {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.643;
+}
+
+.pre-footer-head-two {
+  margin-top: 340px;
+  margin-bottom: 30px;
+  font-size: 39.35px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.576;
+}
+
+.button-dnd {
+  margin-top: 38px;
+  border: #fff solid 4px;
+  border-radius: 10px;
+  padding: 6px 32px;
+  width: 204px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.button-dnd:hover {
+  color: #44a36f;
+  background-color: #fff;
+}
+/* End pre-footer-second */
+
+/* .almost-footer {
+  background-image
+} */
+
+.map {
+  margin: 0;
+  width: 1280px;
+  height: 635px;
+  background-image: url(/images/map.png);
+}
+
+.almost-footer-main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.almost-footer-main form {
+  max-height: 430px;
+  max-width: 430px;
+  margin-top: 160px;
+  margin-bottom: 45px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 85px;
+  border-radius: 50%;
+}
+
+.almost-footer-main form img {
+  position: absolute;
+  left: 182px;
+  bottom: 45px;
+}
+
+.almost-footer-main form textarea {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgba(76, 80, 93, 0.502);
+  font-weight: bold;
+  width: 270px;
+  height: 80px;
+  resize: none;
+  border: rgba(0, 0, 0, 0.3) solid 2px;
+}
+
+.almost-footer-main input {
+  margin-bottom: 14px;
+  width: 270px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgba(76, 80, 93, 0.502);
+  font-weight: bold;
+  border: rgba(0, 0, 0, 0.3) solid 2px;
+}
+
+.almost-footer-main .input-one {
+  margin-top: 30px;
+}
+
+footer {
+  background: #43a06d;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.571;
+  padding: 20px;
+}
