@@ -89,7 +89,7 @@ select {
 .upper {
   width: 1280px;
   height: 800px;
-  background-image: url(/images/Layer\ 2@0\,75x.png);
+  background-image: url(images/Layer\ 2@0\,75x.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 1280px;
@@ -227,7 +227,7 @@ select {
 /* Start Pre-Footer */
 
 .pre-footer-main {
-  background-image: url(/images/Sec1.png);
+  background-image: url(images/Sec1.png);
   width: 1280px;
   height: 870px;
 }
@@ -275,7 +275,7 @@ select {
 }
 
 .pre-footer-main-two {
-  background-image: url(/images/sec2.png);
+  background-image: url(images/sec2.png);
   position: absolute;
   bottom: 0;
   top: -330px;
@@ -331,7 +331,7 @@ select {
   margin: 0;
   width: 1280px;
   height: 635px;
-  background-image: url(/images/map.png);
+  background-image: url(images/map.png);
 }
 
 .almost-footer-main {
