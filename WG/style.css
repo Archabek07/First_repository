@@ -81,7 +81,7 @@ select {
 /* Start heder */
 .mainbody {
   font-family: "Open Sans", sans-serif;
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
   position: relative;
 }
