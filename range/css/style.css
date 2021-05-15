@@ -237,7 +237,7 @@ h3 {
   background-color: #0bb3b3;
 }
 .exp {
-  background-image: url("/images/Layer\ 12.png");
+  background-image: url("../images/Layer\ 12.png");
   background-color: #521a66;
   background-blend-mode: overlay;
   background-size: 1600px;
@@ -330,18 +330,18 @@ h3 {
   bottom: 50px;
   width: 40px;
   height: 40px;
-  background-image: url(/images/icons/Timer.svg);
+  background-image: url(../images/icons/Timer.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .advantages-head.one-icon::before {
-  background-image: url(/images/icons/Dashboard.svg);
+  background-image: url(../images/icons/Dashboard.svg);
 }
 .advantages-head.two-icon::before {
-  background-image: url(/images/icons/Stats.svg);
+  background-image: url(../images/icons/Stats.svg);
 }
 .advantages-head.three-icon::before {
-  background-image: url(/images/icons/Menu.svg);
+  background-image: url(../images/icons/Menu.svg);
 }
 .footer {
   max-width: 1600px;
