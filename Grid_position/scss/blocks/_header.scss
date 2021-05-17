@@ -1,0 +1,63 @@
+.header {
+  grid-area: header;
+
+  &__menu {
+    min-width: 1140px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  &__list {
+    display: grid;
+    grid-template: repeat(7, 1fr);
+    grid-auto-flow: column;
+    align-content: center;
+    justify-items: center;
+    padding: 0;
+    margin: 61px 0 0 0;
+  }
+
+  &__list a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #000;
+  }
+
+  &__link-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &__link4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__link7-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link7 {
+    padding-right: 10px;
+  }
+
+  &__main-logo {
+    padding: 0;
+    margin: 0;
+    width: 201px;
+    height: 40px;
+  }
+}

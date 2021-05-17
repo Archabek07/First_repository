@@ -1,0 +1,47 @@
+@import "header";
+@import "general";
+@import "vars";
+
+/* Inner Menu */
+
+li {
+  color: #fff;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  transition: 0.5s;
+}
+
+li:hover {
+  background: rgba(236, 231, 231, 0.5);
+  cursor: pointer;
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
+}
+
+ul li ul {
+  background: rgba(218, 206, 206, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+/* END Inner menu */

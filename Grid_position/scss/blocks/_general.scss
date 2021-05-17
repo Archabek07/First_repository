@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template: minmax(800px, auto) 1fr minmax(365px, auto) 1fr / 1fr;
+  grid-template-areas: "header" "main" "footer";
+  font-family: "Montserrat", sans-serif;
+}
