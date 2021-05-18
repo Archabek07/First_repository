@@ -269,7 +269,7 @@ h3 {
 }
 .text-exp {
   font-size: 20px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #a87bb7;
   line-height: 1.65;
   text-align: center;
@@ -310,14 +310,14 @@ h3 {
   margin: 0 0 25px;
   position: relative;
   font-size: 15px;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   color: #662e79;
   font-weight: 700;
   text-transform: uppercase;
 }
 .advantages-text {
   font-size: 16px;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   color: #7a8387;
   line-height: 1.875;
   padding: 0;
@@ -384,14 +384,14 @@ h3 {
   width: 1180px;
   padding: 50px 0 70px 0;
   font-size: 14px;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   color: #83969f;
   text-align: right;
 }
 .footer-title span.copyright {
   padding-right: 328px;
   font-size: 15px;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   color: #83969f;
   font-weight: 700;
   text-transform: uppercase;
