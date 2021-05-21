@@ -1,5 +1,8 @@
+@import "vars";
+
 .header {
   grid-area: header;
+  background-color: $cream-color;
 
   &__menu {
     min-width: 1140px;
@@ -7,7 +10,12 @@
     margin: 0;
     position: relative;
   }
-
+  &__main-logo {
+    padding: 0;
+    margin: 0;
+    width: 201px;
+    height: 40px;
+  }
   &__list {
     display: grid;
     grid-template: repeat(7, 1fr);
@@ -52,12 +60,5 @@
 
   &__link7 {
     padding-right: 10px;
-  }
-
-  &__main-logo {
-    padding: 0;
-    margin: 0;
-    width: 201px;
-    height: 40px;
   }
 }
