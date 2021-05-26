@@ -1,0 +1,177 @@
+/* сброс стилей браузера */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol {
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+/* конец кода сброса стилей браузера */
+
+body {
+  width: 760px;
+  margin: 0 auto;
+  background-color: #194350;
+}
+
+h1 {
+  font: normal 3em "roboto", sans-serif;
+  color: #9dbeb9;
+  background: url(../images/underline.png) no-repeat 0px 88%;
+  padding-left: 2px;
+  font-size: 42px;
+  margin-top: 10px;
+}
+
+/* пользовательские стили  */
+.inventory {
+  width: 100%;
+  margin-top: 25px;
+  font-family: "Trebuchet MS", Aria, Arial, Helvetica, sans-serif;
+  color: #fff;
+  border-collapse: collapse;
+  box-shadow: -10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.inventory caption {
+  text-align: right;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+}
+
+.inventory td,
+.inventory tr {
+  font-size: 1.1em;
+  border: 1px solid #ffc2b4;
+  padding: 3px 7px 2px 7px;
+}
+
+.inventory th {
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  background: rgb(255, 136, 130);
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 136, 130),
+    rgb(255, 194, 180)
+  );
+  color: #ffffff;
+  text-shadow: 1px 1px #000;
+}
+
+.inventory tr:nth-of-type(even) {
+  background-color: rgba(25, 67, 80, 0.1);
+}
+.inventory tr:nth-of-type(odd) {
+  background-color: rgba(255, 194, 180, 0.2);
+}
+
+#price,
+#rating {
+  width: 15%;
+}

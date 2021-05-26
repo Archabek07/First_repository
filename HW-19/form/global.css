@@ -1,0 +1,236 @@
+/* сброс стилей браузера */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol {
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+
+/* конец кода сброса стилей браузера */
+
+body {
+  width: 760px;
+  margin: 0 auto;
+  background-color: #cce6ff;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: normal;
+  border-bottom: dotted 2px rgba(0, 0, 0, 0.5);
+  padding-bottom: 4px;
+  color: black;
+  margin: 25px 0;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+.subform {
+  border-radius: 5px;
+  background-color: rgb(0, 51, 102);
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding: 32px 16px 16px 16px;
+  box-shadow: -5px 5px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.subform .label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  /* text-align: right; */
+}
+
+/* .subform input[type="text"] {
+
+} */
+
+.radio {
+  display: inline-block;
+  width: 200px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+}
+.subform input[type="text"],
+.subform textarea {
+  margin-top: 5px;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.2em;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+  width: 500px;
+  padding: 5px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  transition: 0.5s;
+}
+.subform input[type="radio"] {
+  display: inline-block;
+}
+
+.subform .radio-text {
+  vertical-align: top;
+  text-transform: lowercase;
+  padding-left: 5px;
+}
+.subform input[type="submit"] {
+  margin-left: 220px;
+}
+
+.subform select {
+  margin-top: 5px;
+  font-size: 1em;
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.subform select:focus {
+  color: black;
+}
+
+.subform select option {
+  background-color: rgb(0, 102, 153);
+  opacity: 50%;
+  font-size: 1em;
+}
+.subform input[type="text"]:focus,
+.subform textarea:focus {
+  background-color: #fff;
+  color: black;
+}
+
+.subform input[type="submit"] {
+  margin-left: 220px;
+  padding: 10px 25px;
+  font-size: 1em;
+  color: white;
+  background: rgb(0, 102, 153);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.subform input[type="submit"]:hover {
+  background-color: #fff;
+  color: black;
+  opacity: 50%;
+}
