@@ -132,7 +132,7 @@
   }
 
   &__busket-img {
-    margin-left: 66px;
+    margin-left: 55px;
     margin-right: 28px;
     width: 30px;
     transition: 0.5s;
@@ -144,15 +144,14 @@
   }
 
   &__busket-figure-two {
+    width: 15px;
     margin: 0;
     text-decoration: none;
-    padding: 1.4px 15px;
+    padding: 2px 15px;
     font-family: $font;
     font-weight: bold;
     font-size: 12px;
-    line-height: 14.5px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: $general-color;
     background-color: $main-color;
     position: relative;
@@ -161,7 +160,7 @@
   &__busket-figure-two::before {
     content: "";
     position: absolute;
-    right: 37px;
+    right: 45px;
     top: 0;
     width: 0;
     height: 0;
