@@ -1,0 +1,71 @@
+@import "../vars";
+
+.collection {
+  max-width: 1140px;
+  margin: 0 auto;
+  &__main {
+    height: 250px;
+    display: grid;
+    grid-template: 1fr / repeat(2, 1fr);
+  }
+  &__man {
+    display: flex;
+    // position: relative;
+    margin-right: 15px;
+  }
+
+  &__woman {
+    display: flex;
+    // position: relative;
+    margin-right: 15px;
+    background-color: $fourth-color;
+  }
+  &__man-main,
+  &__woman-main {
+    margin-left: 20px;
+    display: block;
+    width: 335px;
+    color: $third-color;
+    font-family: $font;
+  }
+
+  &__img-man,
+  &__img-woman {
+    width: 40%;
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__img-man img,
+  &__img-woman img {
+    max-width: 190px;
+    max-height: 171px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 60px 0 25px 0;
+  }
+
+  &__text-min {
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  &__text span {
+    font-weight: 300;
+  }
+
+  &__button {
+    font-size: 0;
+    padding: 15px 40px;
+    background-position: center;
+  }
+}

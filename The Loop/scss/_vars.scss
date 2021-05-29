@@ -1,0 +1,16 @@
+$general-color: #f9f6f1;
+$main-color: #d7b399;
+$third-color: #212121;
+$fourth-color: #f4f4f4;
+$font: "Montserrat";
+
+.icon-Arrow {
+  background-image: url(../images/Arrow.svg);
+  background-color: $main-color;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease-in-out;
+}
+
+.icon-Arrow:hover {
+  background-color: $third-color;
+}

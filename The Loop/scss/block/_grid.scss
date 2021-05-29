@@ -1,0 +1,42 @@
+@import "../vars";
+
+.grid {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  &__main {
+    height: 472px;
+  }
+
+  &__cart {
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
+  }
+
+  &__items {
+    display: block;
+    position: relative;
+    font-family: $font;
+    color: $third-color;
+    max-width: 277px;
+    max-height: 235px;
+    background-color: lightgray;
+  }
+  &__img {
+    transition: all 0.8s ease-in-out;
+
+    &:hover {
+      transform: perspective(400px) scale(0.8) rotateY(-180deg);
+    }
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+}

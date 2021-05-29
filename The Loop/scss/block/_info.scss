@@ -1,0 +1,93 @@
+@import "../vars";
+
+.info {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 235px;
+  background-color: $third-color;
+  padding: 0;
+
+  &__inner {
+    width: 1140px;
+    margin: 0 auto;
+    height: 235px;
+    background-color: $third-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__main {
+    font-family: $font;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: $general-color;
+    padding-bottom: 25px;
+  }
+
+  &__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    color: $general-color;
+  }
+
+  &__main span {
+    font-weight: 300;
+  }
+  // INNER TWO
+
+  &__inner-two {
+    width: 1140px;
+    margin: 0 auto;
+    height: 235px;
+    background-color: $third-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__main-two {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $general-color;
+  }
+
+  .btn-submit {
+    background-color: $main-color;
+    padding: 12px 33px;
+    background-image: none;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase;
+    color: $general-color;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background-color: $general-color;
+      color: $third-color;
+    }
+  }
+
+  &__email-form {
+    display: inline-block;
+    width: 255px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border: none;
+    margin-right: 35px;
+    &[placeholder="Ваш e-mail"] {
+      font-weight: 300;
+      font-size: 12px;
+      text-align: left;
+      padding-left: 20px;
+      color: #8d8d8d;
+    }
+  }
+}

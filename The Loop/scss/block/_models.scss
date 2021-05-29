@@ -1,0 +1,98 @@
+@import "../vars";
+
+.models {
+  &__main {
+    margin: 150px auto 150px;
+    height: 650px;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    background-color: $general-color;
+    height: 350px;
+    font-family: $font;
+  }
+
+  &__items-content {
+    margin-right: 30px;
+    border: 3px solid $main-color;
+    padding-top: 25px;
+    position: relative;
+    width: 255px;
+    &::before {
+      content: "";
+      left: 25px;
+      right: 25px;
+      top: -3px;
+      bottom: -3px;
+      background-color: transparent;
+      border: 3px solid $general-color;
+      position: absolute;
+    }
+    &::after {
+      content: "";
+      left: -3px;
+      right: -3px;
+      top: 25px;
+      bottom: 25px;
+      position: absolute;
+      border: 3px solid $general-color;
+      background-color: transparent;
+    }
+  }
+
+  &__items-content:last-child {
+    margin-right: 0;
+  }
+
+  &__head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__des-n {
+    display: block;
+    margin: 20px auto 13px;
+    width: 112px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  &__prise {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: $main-color;
+  }
+
+  &__button {
+    background-size: 0;
+    padding: 18px 35px 18px 35px;
+    text-decoration: none;
+    color: $general-color;
+    font-size: 16px;
+    text-transform: uppercase;
+    & img {
+      padding: 0 0 2.5px 10px;
+    }
+  }
+}
