@@ -1,0 +1,62 @@
+@import "vars";
+
+@media screen and (max-width: 1120px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .limon__general {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .limon__header {
+    text-align: center;
+  }
+  .limon__paragraph {
+    margin: 0 0 1rem 0px;
+  }
+  .blog__head {
+    text-align: center;
+  }
+  .grid__header {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__button {
+    display: block;
+  }
+
+  .header__nav {
+    display: none;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .js-menu-show {
+    display: block;
+  }
+
+  .header__list {
+    flex-direction: column;
+  }
+  .header__items {
+    margin: 0;
+  }
+  .header__items a {
+    text-align: center;
+    display: block;
+    padding: 15px;
+    border-radius: 0;
+    margin: 0;
+  }
+  .header__list:hover:active {
+    background-color: white;
+  }
+  .header__items:first-child {
+    margin-top: 20px;
+  }
+}

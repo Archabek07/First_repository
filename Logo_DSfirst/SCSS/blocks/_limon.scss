@@ -1,0 +1,35 @@
+@import "../vars";
+
+.limon {
+  background-color: $main-color;
+  padding-top: 100px;
+  &__general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  &__text {
+    color: $white;
+  }
+  &__header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  &__paragraph {
+    max-width: 547px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+
+  &__img a {
+    display: block;
+  }
+
+  &__img img {
+    max-width: 100%;
+  }
+}

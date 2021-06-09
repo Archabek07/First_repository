@@ -1,0 +1,67 @@
+@import "../vars";
+
+.header {
+  background-color: $second-color;
+  position: fixed;
+  width: 100%;
+
+  &__nav {
+    display: block;
+  }
+  &__general {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    & a {
+      text-decoration: none;
+      color: $main-color;
+    }
+  }
+  &__button {
+    display: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  &__logo {
+    display: block;
+    background-color: $logo-color;
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      transform: scale(1.2) translateY(15px);
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__items {
+    margin-right: 15px;
+  }
+  &__items:last-child {
+    margin-right: 0;
+  }
+  &__items a {
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: $main-color;
+    color: $white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      background-color: $white;
+      color: $main-color;
+    }
+  }
+
+  .fas.fa-bars {
+    font-size: 2em;
+  }
+}
