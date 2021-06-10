@@ -28,16 +28,22 @@
 @media screen and (max-width: 768px) {
   .header__button {
     display: block;
+    cursor: pointer;
   }
 
   .header__nav {
-    display: none;
+    // display: none;
     width: 100%;
-    transition: 0.5s;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: $main-color;
+    transition: all 0.5s ease;
   }
 
   .js-menu-show {
     display: block;
+    top: 100px;
   }
 
   .header__list {
