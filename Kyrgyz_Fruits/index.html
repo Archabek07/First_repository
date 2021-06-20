@@ -15,9 +15,9 @@
     <title>KYRGYZ FRUIT</title>
   </head>
   <body class="container">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light mt-5">
-        <div class="container">
+    <div class="top">
+      <nav class="navbar navbar-expand-lg navbar-light mt-lg-5 mt-md-3 mt-sm-2">
+        <div class="container p-0">
           <a class="navbar-brand" href="#"
             ><span class="orange-color">KYRGYZ</span> FRUIT</a
           >
@@ -66,24 +66,23 @@
           </div>
         </div>
       </nav>
-    </header>
-
-    <main class="cup" style="max-width: 1170px;">
-      <div class="row align-items-center" style="margin-top: 170px;">
-        <div class="col">
-          <button class="btn btn-warning">
-            #1Сухофрукты в Кыргызстане
-          </button>
-          <p class="cup__text fw-bold">
-            Экспорт сухофруктов,
-            <span>грецких орехов, фасоли и мёда в Европейский Союз</span>
-          </p>
+      <main class="cup" style="max-width: 1170px;">
+        <div class="row align-items-center" style="margin-top: 170px;">
+          <div class="col">
+            <button class="btn btn-warning">
+              #1Сухофрукты в Кыргызстане
+            </button>
+            <p class="cup__text fw-bold">
+              Экспорт сухофруктов,
+              <span>грецких орехов, фасоли и мёда в Европейский Союз</span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/cup.png" alt="" />
+          </div>
         </div>
-        <div class="col">
-          <img src="images/cup.png" alt="" />
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
 
     <section class="info">
       <div class="d-flex flex-row bd-highlight mb-3" style="max-width: 1170px;">
@@ -105,10 +104,10 @@
 
     <section class="cards" style="max-width: 1170px;">
       <div class="container">
-        <div class="row">
+        <div class="row row-cols-3">
           <div class="col cards__col">
             <img
-              class="card-img-top cards__img"
+              class="card-img-top cards__img img-fluid mb-3"
               src="images/fruit01.png"
               alt="picture"
             />
@@ -117,7 +116,7 @@
           </div>
           <div class="col cards__col">
             <img
-              class="card-img-top cards__img"
+              class="card-img-top cards__img img-fluid mb-3"
               src="images/fruit02.png"
               alt="picture"
             />
@@ -126,7 +125,7 @@
           </div>
           <div class="col cards__col">
             <img
-              class="card-img-top cards__img"
+              class="card-img-top cards__img mb-3 img-fluid"
               src="images/fruit03.png"
               alt="picture"
             />
@@ -237,9 +236,7 @@
     <section class="about-us" style="max-width: 1170px;">
       <div class="container">
         <h3 class="about-us__header pb-3">О КОМПАНИИ</h3>
-        <div
-          class="row row-cols-2 justify-content-center about-us__col gap-lg-5 gap-md-4 gap-sm-3"
-        >
+        <div class="row row-cols-2 justify-content-center about-us__col gap-5">
           <div class="col about-us__col-inner">
             Наша компания основана в 2009 году. Мы являемся крупным
             производителем и экспортером сухофруктов в Кыргызстане. На
@@ -302,9 +299,9 @@
 
     <footer class="footer" style="max-width: 1170px;">
       <div
-        class="row row-cols-auto justify-content-between pt-lg-5 pt-md-5 pt-sm-5"
+        class="row row-cols-auto justify-content-lg-between justify-content-md-between justify-content-sm-center pt-lg-5 pt-md-5 pt-sm-5"
       >
-        <div class="footer__main col-2">
+        <div class="footer__main col-2 p-0">
           <h2 class="mb-4 fs-5 fw-bold"><span>KYRGYZ</span> FRUIT</h2>
           <p>
             <i class="bi bi-geo-alt-fill pb-3"></i>Адрес: Кыргызстан, 720073
@@ -312,7 +309,7 @@
           </p>
           <p>©Copyright Kyrgyz Fruit</p>
         </div>
-        <div class="footer__one">
+        <div class="footer__one p-0">
           <h3 class="mb-4 fs-5 fw-bold">Feature</h3>
           <ul class="list-unstyled">
             <li class="pb-3">
@@ -331,7 +328,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer__two">
+        <div class="footer__two p-0">
           <h3 class="mb-4 fs-5 fw-bold">Get in Touch</h3>
           <ul class="list-unstyled">
             <li class="pb-3">
@@ -358,7 +355,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer_three">
+        <div class="footer__three p-0">
           <h3 class="mb-4 fs-5">Следите за нами</h3>
           <ul class="list-unstyled d-flex justify-content-between">
             <li>
