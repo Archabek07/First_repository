@@ -1,0 +1,12 @@
+@import "../vars";
+
+.container_main {
+  margin: 0;
+}
+
+.container_inner {
+  max-width: 1120px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: $font-family;
+}

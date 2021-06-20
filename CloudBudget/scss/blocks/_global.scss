@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  height: 782px;
+  background-color: $second-color;
+  background-image: url(../../images/Top_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-size: cover;
+}

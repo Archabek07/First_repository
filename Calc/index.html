@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header
+        class="header pt-4 d-flex justify-content-between align-items-center"
+      >
+        <div>
+          <div class="header__button">
+            <span></span>
+          </div>
+          <div class="header__toggler">
+            <ul class="header__list">
+              <li class="header__items list-unstyled">
+                <a href="#">Settings</a>
+              </li>
+              <li class="header__items list-unstyled">
+                <a href="#">About</a>
+              </li>
+              <li class="header__items list-unstyled">
+                <button>ENG</button>
+                <button>RUS</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h1 class="m-0 fs-6 d-block header__title">Standard Calculator</h1>
+        <a href="#"
+          ><img class="header__dotter" src="images/more_vertical.svg" alt=""
+        /></a>
+      </header>
+      <div class="keyboard pt-lg-5 pt-sm-5 pt-5">
+        <div
+          class="row flex-column align-content-center justify-content-center m-0"
+        >
+          <form action="#" class="keyboard__screen mb-5">
+            <input type="text" placeholder="0" class="keyboard__input" />
+          </form>
+          <div class="keyboard__key d-flex justify-content-center">
+            <ul class="keyboard__list d-grid p-0 mb-sm-5 mb-lg-5">
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">AC</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">( )</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">%</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">
+                  <img src="images/divide.svg" alt="/" />
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  7
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  8
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  9
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">*</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  4
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  5
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  6
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">-</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  1
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  2
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-number btn btn-primary"
+                >
+                  3
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">+</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">.</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">0</button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button class="keyboard__button btn btn-primary">
+                  <img class="btn-clear" src="images/del.svg" alt="&lt;-" />
+                </button>
+              </li>
+              <li class="col keyboard__items list-unstyled">
+                <button
+                  class="keyboard__button keyboard__button-equal btn btn-primary"
+                >
+                  =
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
